@@ -12,6 +12,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A8DBE4
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{BDEB9027-2AF9-46CE-83CD-98FE025A31BB}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Databases\BanQuanAo.mdf = ..\..\..\..\Databases\BanQuanAo.mdf
+		..\..\..\..\Databases\BanQuanAo_log.ldf = ..\..\..\..\Databases\BanQuanAo_log.ldf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

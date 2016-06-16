@@ -8,9 +8,6 @@ namespace WebBanQuanAo.Controllers
 {
     public class GioHangController : Controller
     {
-        //
-      
-        // GET: /GioHang/
         BanQuanAoEntities db = new BanQuanAoEntities();
         public List<ItemGioHang> LayGioHang()
         {
